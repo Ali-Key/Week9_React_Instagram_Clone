@@ -7,7 +7,7 @@ import "./LikeSection"
 const LikeSection = props => {
   // 🔥 Make sure the parent of LikeSection is passing the right props!
   // Hubi in component-ga ka sareysa midaan ay props sax ah soo direyso.
-  console.log("haye")
+  console.log("Hey, I'm Ali-Key")
   console.log(props.likes)
   const [likes , setLikes] = useState(props.likes)
   
@@ -28,8 +28,9 @@ const LikeSection = props => {
         </div>
         <div className='like-section-wrapper'>
           {/* <FontAwesomeIcon icon={faComment} /> */}
-          <i className="fa-regular fa-comment"></i>
+         
         </div>
+
       </div>
     
           {/* Change this hard coded likes to like from props */}

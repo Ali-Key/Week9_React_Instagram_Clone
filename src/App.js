@@ -34,6 +34,7 @@ const App = () => {
     <div className='App'>
       {/* Add SearchBar and Posts here to render them */}
       {/* Soo jiido SearchBar iyo Posts components-ka hoos, si aad u muujiyo */}
+      
       <SearchBar searchBar={searchBar} setSearchBar={setSearchBar}/>
       <Posts posts={posts} setPosts={setPosts}/>
       {/* Check the implementation of each component, to see what props they require, if any! */}

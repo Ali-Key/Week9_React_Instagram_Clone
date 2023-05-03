@@ -4,7 +4,8 @@ import React from 'react';
 const Comment = (props) => {
   // 🔥 Make sure the parent of Comment is passing the right props!
   // Hubi in component-ga ka sareysa midaan ay props sax ah soo direyso.
-//   console.log("ali")
+  
+//   console.log("Ali-key")
 //   console.log(props.comment);
 //   const { comment } = props.comment
 

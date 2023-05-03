@@ -12,12 +12,20 @@ const SearchBar = (props) => {
         {/* <FontAwesomeIcon icon={faInstagram} /> */}
         <i className="fa-brands fa-instagram"></i>
       </div>
+      
+      
       <form className="search-form">
         <input
           type="text"
           placeholder="Search"
         />
       </form>
+
+
+
+
+
+
       <div className="social-wrapper">
         <div className="social">
           {/* <FontAwesomeIcon icon={faCompass} /> */}
