@@ -7,7 +7,7 @@ const Posts = (props) => {
   // Hubi in component-ga ka sareysa midaan ay props sax ah soo direyso.
   const { posts } = props;
 
-  // console.log(posts)
+
   return (
     <div className='posts-container-wrapper'>
       {/* Map through the posts array returning a Post component at each iteration */}
